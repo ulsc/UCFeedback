@@ -2,15 +2,12 @@
 //  UCFeedback.h
 //  UCFeedbackExample
 //
-//  Created by Ulaş Can Cengiz on 11/10/12.
+//  Created by Ulaş Can Cengiz on 11/11/12.
 //  Copyright (c) 2012 Ulas Can Cengiz. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
 
-@interface UCFeedback : NSObject
-
-- (void)roundedRectFeedbackButton:(CGRect)frame forView:(UIView *)view;
+@interface UCFeedback : UIView
 
 @end

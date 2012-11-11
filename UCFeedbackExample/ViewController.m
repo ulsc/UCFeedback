@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UCFeedback.h"
+#import "UCFeedbackView.h"
 
 @interface ViewController ()
 
@@ -18,8 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UCFeedback *feedback = [[UCFeedback alloc] init];
-    [feedback roundedRectFeedbackButton:CGRectMake(0, 0, 100, 100) forView:self.view];
+    UCFeedbackView *feedback = [[UCFeedbackView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:feedback];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
