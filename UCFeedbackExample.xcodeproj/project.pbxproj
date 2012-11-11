@@ -20,6 +20,7 @@
 		2734E64D164E8FE9004C0540 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2734E64C164E8FE9004C0540 /* ViewController.m */; };
 		2734E667164E981E004C0540 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734E666164E981E004C0540 /* QuartzCore.framework */; };
 		27E7588E164FCA4100CCEA39 /* UCFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E7588D164FCA4100CCEA39 /* UCFeedback.m */; };
+		27E75890164FCB0100CCEA39 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E7588F164FCB0100CCEA39 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2734E666164E981E004C0540 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		27E7588C164FCA4100CCEA39 /* UCFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCFeedback.h; sourceTree = "<group>"; };
 		27E7588D164FCA4100CCEA39 /* UCFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCFeedback.m; sourceTree = "<group>"; };
+		27E7588F164FCB0100CCEA39 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E75890164FCB0100CCEA39 /* MessageUI.framework in Frameworks */,
 				2734E667164E981E004C0540 /* QuartzCore.framework in Frameworks */,
 				2734E631164E8FE9004C0540 /* UIKit.framework in Frameworks */,
 				2734E633164E8FE9004C0540 /* Foundation.framework in Frameworks */,
@@ -79,6 +82,7 @@
 		2734E62F164E8FE9004C0540 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27E7588F164FCB0100CCEA39 /* MessageUI.framework */,
 				2734E666164E981E004C0540 /* QuartzCore.framework */,
 				2734E630164E8FE9004C0540 /* UIKit.framework */,
 				2734E632164E8FE9004C0540 /* Foundation.framework */,

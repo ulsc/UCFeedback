@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UCFeedback.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UCFeedbackDelegate>
 
 @end

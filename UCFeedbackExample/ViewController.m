@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UCFeedbackView.h"
 
 @interface ViewController ()
 
@@ -18,7 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UCFeedbackView *feedback = [[UCFeedbackView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    UCFeedback *feedback = [[UCFeedback alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    feedback.delegate = self;
     [self.view addSubview:feedback];
 	// Do any additional setup after loading the view, typically from a nib.
 }

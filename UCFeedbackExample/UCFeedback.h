@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <MessageUI/MessageUI.h>
 
-@interface UCFeedback : UIView
+@class UCFeedback;
+@protocol UCFeedbackDelegate
+
+@end
+
+@interface UCFeedback : UIView <MFMailComposeViewControllerDelegate>
+
+@property (nonatomic,assign) UIViewController <UCFeedbackDelegate> *delegate;
+
+
+- (void)sendMail:(id)sender withScreenshot:(NSData *)screenshot;
 
 @end
