@@ -18,6 +18,8 @@
 		2734E647164E8FE9004C0540 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2734E646164E8FE9004C0540 /* Default-568h@2x.png */; };
 		2734E64A164E8FE9004C0540 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2734E648164E8FE9004C0540 /* MainStoryboard.storyboard */; };
 		2734E64D164E8FE9004C0540 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2734E64C164E8FE9004C0540 /* ViewController.m */; };
+		2734E659164E90B5004C0540 /* UCFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 2734E658164E90B5004C0540 /* UCFeedback.m */; };
+		2734E667164E981E004C0540 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734E666164E981E004C0540 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		2734E649164E8FE9004C0540 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2734E64B164E8FE9004C0540 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2734E64C164E8FE9004C0540 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2734E657164E90B5004C0540 /* UCFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCFeedback.h; sourceTree = "<group>"; };
+		2734E658164E90B5004C0540 /* UCFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCFeedback.m; sourceTree = "<group>"; };
+		2734E666164E981E004C0540 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2734E667164E981E004C0540 /* QuartzCore.framework in Frameworks */,
 				2734E631164E8FE9004C0540 /* UIKit.framework in Frameworks */,
 				2734E633164E8FE9004C0540 /* Foundation.framework in Frameworks */,
 				2734E635164E8FE9004C0540 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +79,7 @@
 		2734E62F164E8FE9004C0540 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2734E666164E981E004C0540 /* QuartzCore.framework */,
 				2734E630164E8FE9004C0540 /* UIKit.framework */,
 				2734E632164E8FE9004C0540 /* Foundation.framework */,
 				2734E634164E8FE9004C0540 /* CoreGraphics.framework */,
@@ -88,6 +95,8 @@
 				2734E648164E8FE9004C0540 /* MainStoryboard.storyboard */,
 				2734E64B164E8FE9004C0540 /* ViewController.h */,
 				2734E64C164E8FE9004C0540 /* ViewController.m */,
+				2734E657164E90B5004C0540 /* UCFeedback.h */,
+				2734E658164E90B5004C0540 /* UCFeedback.m */,
 				2734E637164E8FE9004C0540 /* Supporting Files */,
 			);
 			path = UCFeedbackExample;
@@ -176,6 +185,7 @@
 				2734E63D164E8FE9004C0540 /* main.m in Sources */,
 				2734E641164E8FE9004C0540 /* AppDelegate.m in Sources */,
 				2734E64D164E8FE9004C0540 /* ViewController.m in Sources */,
+				2734E659164E90B5004C0540 /* UCFeedback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCFeedbackExample/UCFeedbackExample-Prefix.pch";
 				INFOPLIST_FILE = "UCFeedbackExample/UCFeedbackExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCFeedbackExample/UCFeedbackExample-Prefix.pch";
 				INFOPLIST_FILE = "UCFeedbackExample/UCFeedbackExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
