@@ -48,10 +48,11 @@ Credits
 UCFeedback is created by [Ulas Can Cengiz](http://ulas.co)([ulsc](https://github.com/ulsc/) on github).
 
 You can;
-send me an [e-mail](mailto:ulas@ulas.co),
-follow me on [Twitter](https://twitter.com/ulsc),
-find me on [Facebook](http://facebook.com/ulascancengiz), or
-connect me on [LinkedIn](http://linkedin.com/in/ulascengiz)
+
+* send me an [e-mail](mailto:ulas@ulas.co),
+* follow me on [Twitter](https://twitter.com/ulsc),
+* find me on [Facebook](http://facebook.com/ulascancengiz), or
+* connect me on [LinkedIn](http://linkedin.com/in/ulascengiz)
 
 
 Contributing
@@ -63,3 +64,5 @@ Contributing
 4. Push to the branch (`git push origin my_markup`)
 5. Open a [Pull Request][1]
 6. Enjoy a refreshing Diet Coke and wait
+
+[1]: http://github.com/github/markup/pulls
