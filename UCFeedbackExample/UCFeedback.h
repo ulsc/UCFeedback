@@ -12,14 +12,12 @@
 
 @class UCFeedback;
 @protocol UCFeedbackDelegate
-
 @end
 
 @interface UCFeedback : UIView <MFMailComposeViewControllerDelegate>
 
 @property (nonatomic,assign) UIViewController <UCFeedbackDelegate> *delegate;
 
-
-- (void)sendMail:(id)sender withScreenshot:(NSData *)screenshot;
+- (id)initWithFrame:(CGRect)frame andTitle:(NSString *)title andButtonType:(UIButtonType)type;
 
 @end

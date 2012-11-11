@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UCFeedback *feedback = [[UCFeedback alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    UCFeedback *feedback = [[UCFeedback alloc] initWithFrame:CGRectMake(110, 150, 100, 50) andTitle:@"Feedback" andButtonType:UIButtonTypeRoundedRect];
     feedback.delegate = self;
     [self.view addSubview:feedback];
 	// Do any additional setup after loading the view, typically from a nib.
